@@ -1,0 +1,64 @@
+[
+  {
+    "id": "C01",
+    "block": "Finance de marché",
+    "label": "Comprendre les produits financiers de base",
+    "description": "Actions, obligations, produits dérivés simples."
+  },
+  {
+    "id": "C02",
+    "block": "Data Analysis",
+    "label": "Analyse de données en Python",
+    "description": "Utiliser pandas et des statistiques descriptives simples."
+  },
+    {
+    "id": "C03",
+    "block": "Data engineer",
+    "label": "Analyse de données en Python et création de pipelines",
+    "description": "Utiliser pandas et des statistiques descriptives simples et création de pipelines"
+  },
+    
+  {
+    "id": "C04",
+    "block": "Consultant risque financier",
+    "label": "Analyse de données en Python et création de pipelines",
+    "description": "Utiliser pandas et des statistiques descriptives simples et création de pipelines"
+  },
+  {
+    "id": "C05",
+    "block": "Finance de marché",
+    "label": "Sales en produits dérivés",
+    "description": "Vendre des produits financiers complexes à des clients et expliquer leurs risques."
+  },
+  {
+    "id": "C06",
+    "block": "Finance de marché",
+    "label": "Trader junior",
+    "description": "Suivre les marchés, passer des ordres simples et gérer un petit portefeuille sous supervision."
+  },
+  {
+    "id": "C07",
+    "block": "Finance de marché",
+    "label": "Analyste risques de marché",
+    "description": "Analyser les positions de trading et vérifier le respect des limites de risque."
+  },
+  {
+    "id": "C08",
+    "block": "Data Analysis",
+    "label": "Data analyst finance",
+    "description": "Nettoyer des données financières, créer des tableaux de bord et analyser des indicateurs de performance."
+  },
+  {
+    "id": "C09",
+    "block": "Data engineer",
+    "label": "Data engineer BI",
+    "description": "Construire des pipelines de données et des dashboards pour les équipes métier."
+  },
+  {
+    "id": "C10",
+    "block": "Risk analytics",
+    "label": "Data scientist risque",
+    "description": "Utiliser des modèles statistiques et du machine learning pour modéliser le risque de crédit ou de marché."
+  }
+  
+]

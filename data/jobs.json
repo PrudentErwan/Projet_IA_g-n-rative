@@ -1,0 +1,50 @@
+[
+  {
+    "id": "J01",
+    "title": "Data Analyst Finance",
+    "description": "Analyse de données financières et création de dashboards.",
+    "required_competencies": ["C01", "C02"]
+  },
+  {
+    "id": "J02",
+    "title": "Data engineer finance de marché",
+    "sector": "Finance de marché",
+    "required_competencies": ["C03", "C09"],
+    "description": "Construire des pipelines de données et des architectures permettant aux traders et analystes d'exploiter les données de marché."
+  },
+  {
+    "id": "J03",
+    "title": "Analyste risques de marché junior",
+    "sector": "Risques",
+    "required_competencies": ["C01", "C07", "C10"],
+    "description": "Suivre les indicateurs de risque sur les positions de trading et participer aux analyses de stress et aux reportings réglementaires."
+  },
+  {
+    "id": "J04",
+    "title": "Consultant risque financier",
+    "sector": "Conseil",
+    "required_competencies": ["C01", "C04", "C10"],
+    "description": "Accompagner les banques dans la mise en place de modèles de risque et de dispositifs de contrôle."
+  },
+  {
+    "id": "J05",
+    "title": "Trader junior produits dérivés",
+    "sector": "Finance de marché",
+    "required_competencies": ["C01", "C06"],
+    "description": "Gérer un petit portefeuille de produits dérivés simples sous supervision, suivre les marchés et exécuter des ordres."
+  },
+  {
+    "id": "J06",
+    "title": "Sales produits dérivés",
+    "sector": "Finance de marché",
+    "required_competencies": ["C01", "C05"],
+    "description": "Vendre des produits dérivés à des clients institutionnels et expliquer la structure et les risques associés."
+  },
+  {
+    "id": "J07",
+    "title": "Data scientist risque",
+    "sector": "Risques / Data",
+    "required_competencies": ["C02", "C08", "C10"],
+    "description": "Développer des modèles statistiques et de machine learning pour modéliser le risque de crédit ou de marché."
+  }
+]
