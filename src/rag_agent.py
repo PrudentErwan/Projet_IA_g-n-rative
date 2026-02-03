@@ -11,7 +11,7 @@ def get_client() -> Groq:
         api_key = os.getenv("GROQ_API_KEY")
         if not api_key:
             raise RuntimeError(
-                "GROQ_API_KEY n'est pas défini dans les variables d'environnement."
+                "GROQ_API_KEY n'est pas défini dans les variables d'environnement"
             )
         _client = Groq(api_key=api_key)
     return _client
@@ -22,7 +22,8 @@ def build_profile_context(
     top_competencies: List[Dict],
     top_jobs: List[Dict],
 ) -> str:
-    lines = []
+    lines: List[str] = []
+
     lines.append("Résumé du profil utilisateur (texte brut) :")
     lines.append(user_text.strip())
     lines.append("")
@@ -54,7 +55,7 @@ def _chat_completion(prompt: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "Tu es un assistant spécialisé en carrière data / IA / finance."
+                "content": "Tu es un assistant spécialisé en carrière data / IA / finance.",
             },
             {"role": "user", "content": prompt},
         ],
@@ -70,14 +71,12 @@ def generate_learning_plan(
 ) -> str:
     context = build_profile_context(user_text, top_competencies, top_jobs)
     prompt = f"""
-On te donne un profil utilisateur, ses compétences détectées et des métiers recommandés.
-
 Contexte :
 {context}
 
 Tâche :
 - Propose un plan de progression en 3 à 5 étapes claires.
-- Chaque étape doit contenir : un objectif, des compétences à travailler, et des exemples d'actions concrètes (cours, projets, lectures).
+- Chaque étape doit contenir : un objectif, des compétences à travailler, et des exemples d'actions concrètes (cours, projets, ressources).
 - Rédige en français, style simple, directement adressé à l'utilisateur ("tu").
 """
     return _chat_completion(prompt)
