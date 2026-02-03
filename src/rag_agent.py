@@ -3,7 +3,7 @@ import os
 from groq import Groq 
 from dotenv import load_dotenv 
 
-# Charger les variables d'environnement depuis le fichier .env
+
 load_dotenv()
 
 _client = None
